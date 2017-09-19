@@ -20,7 +20,7 @@ class NotchRefreshView: UIView {
         self.scrollView = scrollView
         super.init(frame: frame)
         
-        backgroundColor = UIColor.gray
+        backgroundColor = UIColor.black
     }
     
 }
