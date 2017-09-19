@@ -12,6 +12,8 @@
 		0E1D28771F71AF5700A9459D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D28751F71AF5700A9459D /* Main.storyboard */; };
 		0E1D28791F71AF5700A9459D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D28781F71AF5700A9459D /* Assets.xcassets */; };
 		0E1D287C1F71AF5700A9459D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D287A1F71AF5700A9459D /* LaunchScreen.storyboard */; };
+		0E9AA7831F71B27100DFCA19 /* NotchRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9AA7821F71B27100DFCA19 /* NotchRefreshView.swift */; };
+		0E9AA7861F71B8CA00DFCA19 /* NotchRefreshTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9AA7851F71B8CA00DFCA19 /* NotchRefreshTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0E1D28781F71AF5700A9459D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1D287B1F71AF5700A9459D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1D287D1F71AF5700A9459D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E9AA7821F71B27100DFCA19 /* NotchRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchRefreshView.swift; sourceTree = "<group>"; };
+		0E9AA7851F71B8CA00DFCA19 /* NotchRefreshTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchRefreshTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		0E1D28701F71AF5700A9459D /* PullNotchToRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				0E9AA7841F71B27700DFCA19 /* vendor */,
 				0E1D28711F71AF5700A9459D /* AppDelegate.swift */,
 				0E1D28731F71AF5700A9459D /* ViewController.swift */,
 				0E1D28751F71AF5700A9459D /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				0E1D287D1F71AF5700A9459D /* Info.plist */,
 			);
 			path = PullNotchToRefresh;
+			sourceTree = "<group>";
+		};
+		0E9AA7841F71B27700DFCA19 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0E9AA7821F71B27100DFCA19 /* NotchRefreshView.swift */,
+				0E9AA7851F71B8CA00DFCA19 /* NotchRefreshTableViewController.swift */,
+			);
+			path = vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1D28741F71AF5700A9459D /* ViewController.swift in Sources */,
+				0E9AA7831F71B27100DFCA19 /* NotchRefreshView.swift in Sources */,
+				0E9AA7861F71B8CA00DFCA19 /* NotchRefreshTableViewController.swift in Sources */,
 				0E1D28721F71AF5700A9459D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
