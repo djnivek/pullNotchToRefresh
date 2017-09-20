@@ -12,8 +12,8 @@ Want to contribute? Great! :)
 
 ### Contact
 
-[Twitter] - Follow me 📱
-[StackOverflow] and help me hacking the code :)
+ - [Twitter] - Follow me 📱
+ - [StackOverflow] and help me hacking the code :)
 
 ### Todos
 
