@@ -26,5 +26,5 @@ License
 MIT
 
 
-   [Twitter]: <http://angularjs.org>
-   [StackOverflow]: <http://angularjs.org>
+   [Twitter]: <https://twitter.com/thedjnivek>
+   [StackOverflow]: <https://stackoverflow.com/users/1884877/thedjnivek>
